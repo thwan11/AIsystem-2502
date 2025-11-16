@@ -46,7 +46,7 @@ def _get_onnx_embedder():
     global _ONNX_SESSION
     if _ONNX_SESSION is None:
         _ONNX_SESSION = ort.InferenceSession(
-            "models/glint360k_r100.onnx",
+            "models/model.onnx",
             providers=["CPUExecutionProvider"]
         )
     return _ONNX_SESSION
