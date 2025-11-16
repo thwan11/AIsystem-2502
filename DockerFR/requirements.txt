@@ -2,3 +2,14 @@ fastapi
 pydantic
 uvicorn[standard]
 python-multipart
+
+# Face detection (RetinaFace)
+retina-face
+tf-keras
+
+# Image processing & math
+opencv-python-headless
+numpy
+
+# ONNX + ArcFace embedding
+onnxruntime
